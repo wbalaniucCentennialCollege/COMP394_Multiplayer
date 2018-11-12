@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 58896726068410276}
   - component: {fileID: 114728772895797556}
   - component: {fileID: 114623424124779342}
+  - component: {fileID: 114877920077710562}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -38,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1898969167936820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.0674248, y: 0.034683466, z: 0}
+  m_LocalPosition: {x: -1.8097427, y: 0.76818115, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -132,6 +133,17 @@ MonoBehaviour:
     i15: 25
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114877920077710562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1898969167936820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a2d57b0ab11b449912597d0c2e0643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212440038621857104
 SpriteRenderer:
   m_ObjectHideFlags: 1
